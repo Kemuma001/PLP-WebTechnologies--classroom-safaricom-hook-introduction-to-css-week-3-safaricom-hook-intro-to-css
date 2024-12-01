@@ -104,6 +104,110 @@ Part 2: Inline, Internal, and External CSS (30 Points)
          </body>
          </html>
 
+         
+     EXTERNAL CSS
+  
+         body {
+              background-color: #f0f8ff;
+              margin: 0;
+              padding: 0;
+               }
+     a:hover {
+             color: #ff4500;
+             text-decoration: underline;
+            }
+
+            
+            
+Part 3: Basic Styling Properties (50 Points)
+
+
+                   body {
+                        background-color: #f0f8ff;
+                        margin: 0;
+                       padding: 0;
+                      color: #333;
+                          }
+
+             .content-section {
+                    background-color: #ffffff;
+                    border: 1px solid #ddd;
+                    padding: 20px;
+                    margin: 20px auto;
+                   width: 80%;
+                    border-radius: 8px;
+                  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+                                }
+             a {
+                  color: #007bff;
+                  text-decoration: none;
+                  font-weight: bold;
+                     }
+
+            a:hover {
+                    color: #0056b3;
+                    text-decoration: underline;
+                         }
 
 
 
+2. Create a simple card component using these styles:
+           A heading for the card title.
+           A paragraph with some description.
+           Add padding inside the card and a margin around it.
+           Use a light background color and a subtle border.
+
+
+      <!DOCTYPE html>
+            <html lang="en">
+             <head>
+             <meta charset="UTF-8">
+             <meta name="viewport" content="width=device-width, initial-scale=1.0">
+             <title>Card Component</title>
+                    <style>
+
+                body {
+                    font-family: Arial, sans-serif;
+                    background-color: hsl(330, 81%, 51%);
+                    margin: 0;
+                    padding: 20px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    min-height: 100vh;
+                        }
+
+                    .card {
+                        background-color: hsl(115, 88%, 50%);
+                        border: 1px solid hsl(0, 96%, 50%);
+                        border-radius: 8px;
+                        padding: 20px;
+                        margin: 20px;
+                        box-shadow: 0 4px 8px rgba(67, 209, 31, 0.1);
+                        max-width: 300px;
+                        text-align: center;
+                                }
+
+                    .card-title {
+                            font-size: 24px;
+                            font-weight: bold;
+                             color: #333;
+                               margin-bottom: 10px;
+                                    }
+
+                    .card-description {
+                                font-size: 16px;
+                                color: #555;
+                                line-height: 1.5;
+                                    }
+            </style>
+            </head>
+        <body>
+            <div class="card">
+                <h2 class="card-title">Card Title</h2>
+                <p class="card-description">
+                This is a simple card component. It has a title, a description, and a neat design with padding, margin, and a light border.
+                </p>
+            </div>
+        </body>
+            </html>
